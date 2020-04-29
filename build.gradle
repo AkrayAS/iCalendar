@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'Progrmação Orientada a Objetos'
+version 'Projeto01'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
